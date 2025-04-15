@@ -1,0 +1,35 @@
+2025-04-15 15:05:20,174 - DataAggregator - INFO - Processing {'name': 'brazil', 'wb_code': 'BR', 'stock_index': '^BVSP'}
+2025-04-15 15:05:20,613 - DataAggregator - INFO - Saved data/raw/brazil_gdp.csv
+2025-04-15 15:05:21,012 - DataAggregator - INFO - Saved data/raw/brazil_cpi.csv
+2025-04-15 15:05:21,048 - DataAggregator - ERROR - Yahoo Finance error: Expecting value: line 1 column 1 (char 0)
+2025-04-15 15:05:21,476 - DataAggregator - INFO - Saved data/raw/brazil_news.csv
+2025-04-15 15:05:21,476 - DataAggregator - INFO - Processing {'name': 'india', 'wb_code': 'IN', 'stock_index': '^NSEI'}
+2025-04-15 15:05:21,848 - DataAggregator - INFO - Saved data/raw/india_gdp.csv
+2025-04-15 15:05:22,225 - DataAggregator - INFO - Saved data/raw/india_cpi.csv
+2025-04-15 15:05:22,254 - DataAggregator - ERROR - Yahoo Finance error: Expecting value: line 1 column 1 (char 0)
+2025-04-15 15:05:22,412 - DataAggregator - INFO - Saved data/raw/india_news.csv
+2025-04-15 15:05:22,412 - DataAggregator - INFO - Processing {'name': 'south_africa', 'wb_code': 'ZA', 'stock_index': '^JN0U.JO'}
+2025-04-15 15:05:22,817 - DataAggregator - INFO - Saved data/raw/south_africa_gdp.csv
+2025-04-15 15:05:23,202 - DataAggregator - INFO - Saved data/raw/south_africa_cpi.csv
+2025-04-15 15:05:23,238 - DataAggregator - ERROR - Yahoo Finance error: Expecting value: line 1 column 1 (char 0)
+2025-04-15 15:05:23,628 - DataAggregator - INFO - Saved data/raw/south_africa_news.csv
+2025-04-15 15:24:35,117 - DataAggregator - INFO - Starting institutional data aggregation
+2025-04-15 15:24:35,117 - DataAggregator - INFO - Processing BRAZIL
+2025-04-15 15:24:35,339 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_gdp.csv
+2025-04-15 15:24:35,516 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_cpi.csv
+2025-04-15 15:24:35,516 - DataAggregator - INFO - Fetching institutional-grade data for ^BVSP
+2025-04-15 15:24:37,487 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_equity.csv
+2025-04-15 15:24:37,905 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=brazil+economy&from=2025-03-16&sortBy=relevancy&apiKey=api_key&pageSize=100&language=en
+2025-04-15 15:24:37,905 - DataAggregator - INFO - Processing INDIA
+2025-04-15 15:24:38,118 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_gdp.csv
+2025-04-15 15:24:38,387 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_cpi.csv
+2025-04-15 15:24:38,387 - DataAggregator - INFO - Fetching institutional-grade data for ^NSEI
+2025-04-15 15:24:39,381 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_equity.csv
+2025-04-15 15:24:39,507 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=india+economy&from=2025-03-16&sortBy=relevancy&apiKey=api_key&pageSize=100&language=en
+2025-04-15 15:24:39,508 - DataAggregator - INFO - Processing SOUTH_AFRICA
+2025-04-15 15:24:39,722 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_gdp.csv
+2025-04-15 15:24:39,948 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_cpi.csv
+2025-04-15 15:24:39,948 - DataAggregator - INFO - Fetching institutional-grade data for ^JN0U.JO
+2025-04-15 15:24:41,526 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_equity.csv
+2025-04-15 15:24:41,937 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=south_africa+economy&from=2025-03-16&sortBy=relevancy&apiKey=api_key&pageSize=100&language=en
+2025-04-15 15:24:41,938 - DataAggregator - INFO - Institutional data aggregation complete
