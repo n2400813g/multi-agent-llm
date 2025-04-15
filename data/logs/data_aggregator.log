@@ -33,3 +33,130 @@
 2025-04-15 15:24:41,526 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_equity.csv
 2025-04-15 15:24:41,937 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=south_africa+economy&from=2025-03-16&sortBy=relevancy&apiKey=api_key&pageSize=100&language=en
 2025-04-15 15:24:41,938 - DataAggregator - INFO - Institutional data aggregation complete
+2025-04-15 15:35:33,676 - DataAggregator - INFO - Starting institutional data aggregation
+2025-04-15 15:35:33,676 - DataAggregator - INFO - Processing BRAZIL
+2025-04-15 15:35:33,892 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_gdp.csv
+2025-04-15 15:35:34,098 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_cpi.csv
+2025-04-15 15:35:34,098 - DataAggregator - INFO - Fetching institutional-grade data for ^BVSP
+2025-04-15 15:35:35,640 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_equity.csv
+2025-04-15 15:35:36,040 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=brazil+economy&from=2025-03-16&sortBy=relevancy&apiKey=api_key&pageSize=100&language=en
+2025-04-15 15:35:36,041 - DataAggregator - INFO - Processing INDIA
+2025-04-15 15:35:36,236 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_gdp.csv
+2025-04-15 15:35:36,540 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_cpi.csv
+2025-04-15 15:35:36,540 - DataAggregator - INFO - Fetching institutional-grade data for ^NSEI
+2025-04-15 15:35:37,493 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_equity.csv
+2025-04-15 15:35:37,912 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=india+economy&from=2025-03-16&sortBy=relevancy&apiKey=api_key&pageSize=100&language=en
+2025-04-15 15:35:37,912 - DataAggregator - INFO - Processing SOUTH_AFRICA
+2025-04-15 15:35:38,101 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_gdp.csv
+2025-04-15 15:35:38,310 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_cpi.csv
+2025-04-15 15:35:38,310 - DataAggregator - INFO - Fetching institutional-grade data for ^JN0U.JO
+2025-04-15 15:35:39,815 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_equity.csv
+2025-04-15 15:35:40,210 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=south_africa+economy&from=2025-03-16&sortBy=relevancy&apiKey=api_key&pageSize=100&language=en
+2025-04-15 15:35:40,210 - DataAggregator - INFO - Institutional data aggregation complete
+2025-04-15 15:59:17,411 - DataAggregator - INFO - Loaded configuration files from config
+2025-04-15 15:59:17,411 - DataAggregator - INFO - Starting institutional data aggregation
+2025-04-15 15:59:17,411 - DataAggregator - INFO - Processing BRAZIL
+2025-04-15 15:59:17,610 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_gdp.csv
+2025-04-15 15:59:17,776 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_cpi.csv
+2025-04-15 15:59:17,776 - DataAggregator - INFO - Fetching institutional-grade data for ^BVSP
+2025-04-15 15:59:19,344 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_equity.csv
+2025-04-15 15:59:19,345 - DataAggregator - ERROR - News API error: slice(None, 5, None)
+2025-04-15 15:59:19,345 - DataAggregator - INFO - Processing INDIA
+2025-04-15 15:59:19,527 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_gdp.csv
+2025-04-15 15:59:19,697 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_cpi.csv
+2025-04-15 15:59:19,697 - DataAggregator - INFO - Fetching institutional-grade data for ^NSEI
+2025-04-15 15:59:20,589 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_equity.csv
+2025-04-15 15:59:20,589 - DataAggregator - ERROR - News API error: slice(None, 5, None)
+2025-04-15 15:59:20,589 - DataAggregator - INFO - Processing SOUTH_AFRICA
+2025-04-15 15:59:20,784 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_gdp.csv
+2025-04-15 15:59:20,948 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_cpi.csv
+2025-04-15 15:59:20,949 - DataAggregator - INFO - Fetching institutional-grade data for ^JN0U.JO
+2025-04-15 15:59:22,599 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_equity.csv
+2025-04-15 15:59:22,600 - DataAggregator - ERROR - News API error: slice(None, 5, None)
+2025-04-15 15:59:22,600 - DataAggregator - INFO - Institutional data aggregation complete
+2025-04-15 16:01:44,788 - DataAggregator - INFO - Starting institutional data aggregation
+2025-04-15 16:01:44,789 - DataAggregator - INFO - Processing BRAZIL
+2025-04-15 16:01:44,973 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_gdp.csv
+2025-04-15 16:01:45,151 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_cpi.csv
+2025-04-15 16:01:45,151 - DataAggregator - INFO - Fetching institutional-grade data for ^BVSP
+2025-04-15 16:01:46,602 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_equity.csv
+2025-04-15 16:01:46,995 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=brazil+economy&from=2025-03-16&sortBy=relevancy&apiKey=apiKey&pageSize=100&language=en
+2025-04-15 16:01:46,996 - DataAggregator - INFO - Processing INDIA
+2025-04-15 16:01:47,224 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_gdp.csv
+2025-04-15 16:01:47,444 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_cpi.csv
+2025-04-15 16:01:47,444 - DataAggregator - INFO - Fetching institutional-grade data for ^NSEI
+2025-04-15 16:01:48,361 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_equity.csv
+2025-04-15 16:01:48,530 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=india+economy&from=2025-03-16&sortBy=relevancy&apiKey=apiKey&pageSize=100&language=en
+2025-04-15 16:01:48,531 - DataAggregator - INFO - Processing SOUTH_AFRICA
+2025-04-15 16:01:48,720 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_gdp.csv
+2025-04-15 16:01:48,956 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_cpi.csv
+2025-04-15 16:01:48,956 - DataAggregator - INFO - Fetching institutional-grade data for ^JN0U.JO
+2025-04-15 16:01:50,617 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_equity.csv
+2025-04-15 16:01:50,751 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=south_africa+economy&from=2025-03-16&sortBy=relevancy&apiKey=apiKey&pageSize=100&language=en
+2025-04-15 16:01:50,751 - DataAggregator - INFO - Institutional data aggregation complete
+2025-04-15 16:14:01,794 - DataAggregator - INFO - Starting institutional data aggregation
+2025-04-15 16:14:01,794 - DataAggregator - INFO - Processing BRAZIL
+2025-04-15 16:14:02,014 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_gdp.csv
+2025-04-15 16:14:02,229 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_cpi.csv
+2025-04-15 16:14:02,229 - DataAggregator - INFO - Fetching institutional-grade data for ^BVSP
+2025-04-15 16:14:03,864 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_equity.csv
+2025-04-15 16:14:03,865 - DataAggregator - ERROR - News API error: Header part ({'api_key': 'bc6ea17a7b414dd791bb49ca7be78488'}) from ('X-Api-Key', {'api_key': 'bc6ea17a7b414dd791bb49ca7be78488'}) must be of type str or bytes, not <class 'dict'>
+2025-04-15 16:14:03,865 - DataAggregator - INFO - Processing INDIA
+2025-04-15 16:14:04,058 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_gdp.csv
+2025-04-15 16:14:04,328 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_cpi.csv
+2025-04-15 16:14:04,328 - DataAggregator - INFO - Fetching institutional-grade data for ^NSEI
+2025-04-15 16:14:05,239 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_equity.csv
+2025-04-15 16:14:05,239 - DataAggregator - ERROR - News API error: Header part ({'api_key': 'bc6ea17a7b414dd791bb49ca7be78488'}) from ('X-Api-Key', {'api_key': 'bc6ea17a7b414dd791bb49ca7be78488'}) must be of type str or bytes, not <class 'dict'>
+2025-04-15 16:14:05,239 - DataAggregator - INFO - Processing SOUTH_AFRICA
+2025-04-15 16:14:05,508 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_gdp.csv
+2025-04-15 16:14:05,717 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_cpi.csv
+2025-04-15 16:14:05,717 - DataAggregator - INFO - Fetching institutional-grade data for ^JN0U.JO
+2025-04-15 16:14:07,217 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_equity.csv
+2025-04-15 16:14:07,218 - DataAggregator - ERROR - News API error: Header part ({'api_key': 'bc6ea17a7b414dd791bb49ca7be78488'}) from ('X-Api-Key', {'api_key': 'bc6ea17a7b414dd791bb49ca7be78488'}) must be of type str or bytes, not <class 'dict'>
+2025-04-15 16:14:07,218 - DataAggregator - INFO - Institutional data aggregation complete
+2025-04-15 16:40:30,237 - DataAggregator - INFO - Starting institutional data aggregation
+2025-04-15 16:40:30,237 - DataAggregator - INFO - Processing BRAZIL
+2025-04-15 16:40:30,449 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_gdp.csv
+2025-04-15 16:40:30,645 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_cpi.csv
+2025-04-15 16:40:30,646 - DataAggregator - INFO - Fetching institutional-grade data for ^BVSP
+2025-04-15 16:40:32,187 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_equity.csv
+2025-04-15 16:40:32,187 - DataAggregator - INFO - Using News API key: {'api...
+2025-04-15 16:40:32,588 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=brazil+economy&from=2025-03-16&sortBy=relevancy&pageSize=100&language=en
+2025-04-15 16:40:32,588 - DataAggregator - INFO - Processing INDIA
+2025-04-15 16:40:32,834 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_gdp.csv
+2025-04-15 16:40:33,003 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_cpi.csv
+2025-04-15 16:40:33,004 - DataAggregator - INFO - Fetching institutional-grade data for ^NSEI
+2025-04-15 16:40:33,934 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_equity.csv
+2025-04-15 16:40:33,934 - DataAggregator - INFO - Using News API key: {'api...
+2025-04-15 16:40:34,058 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=india+economy&from=2025-03-16&sortBy=relevancy&pageSize=100&language=en
+2025-04-15 16:40:34,059 - DataAggregator - INFO - Processing SOUTH_AFRICA
+2025-04-15 16:40:34,229 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_gdp.csv
+2025-04-15 16:40:34,463 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_cpi.csv
+2025-04-15 16:40:34,463 - DataAggregator - INFO - Fetching institutional-grade data for ^JN0U.JO
+2025-04-15 16:40:36,048 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_equity.csv
+2025-04-15 16:40:36,048 - DataAggregator - INFO - Using News API key: {'api...
+2025-04-15 16:40:36,170 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=south_africa+economy&from=2025-03-16&sortBy=relevancy&pageSize=100&language=en
+2025-04-15 16:40:36,170 - DataAggregator - INFO - Institutional data aggregation complete
+2025-04-15 17:02:04,308 - DataAggregator - INFO - Starting institutional data aggregation
+2025-04-15 17:02:04,308 - DataAggregator - INFO - Processing BRAZIL
+2025-04-15 17:02:04,548 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_gdp.csv
+2025-04-15 17:02:04,761 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_cpi.csv
+2025-04-15 17:02:04,761 - DataAggregator - INFO - Fetching institutional-grade data for ^BVSP
+2025-04-15 17:02:06,366 - DataAggregator - INFO - Saved institutional dataset: data/raw/brazil_equity.csv
+2025-04-15 17:02:06,367 - DataAggregator - INFO - Using News API key: {'api...
+2025-04-15 17:02:06,483 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=brazil+economy&from=2025-03-16&sortBy=relevancy&pageSize=100&language=en
+2025-04-15 17:02:06,484 - DataAggregator - INFO - Processing INDIA
+2025-04-15 17:02:06,655 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_gdp.csv
+2025-04-15 17:02:06,847 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_cpi.csv
+2025-04-15 17:02:06,847 - DataAggregator - INFO - Fetching institutional-grade data for ^NSEI
+2025-04-15 17:02:07,747 - DataAggregator - INFO - Saved institutional dataset: data/raw/india_equity.csv
+2025-04-15 17:02:07,748 - DataAggregator - INFO - Using News API key: {'api...
+2025-04-15 17:02:07,886 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=india+economy&from=2025-03-16&sortBy=relevancy&pageSize=100&language=en
+2025-04-15 17:02:07,887 - DataAggregator - INFO - Processing SOUTH_AFRICA
+2025-04-15 17:02:08,107 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_gdp.csv
+2025-04-15 17:02:08,449 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_cpi.csv
+2025-04-15 17:02:08,449 - DataAggregator - INFO - Fetching institutional-grade data for ^JN0U.JO
+2025-04-15 17:02:10,077 - DataAggregator - INFO - Saved institutional dataset: data/raw/south_africa_equity.csv
+2025-04-15 17:02:10,077 - DataAggregator - INFO - Using News API key: {'api...
+2025-04-15 17:02:10,213 - DataAggregator - ERROR - News API error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=south_africa+economy&from=2025-03-16&sortBy=relevancy&pageSize=100&language=en
+2025-04-15 17:02:10,214 - DataAggregator - INFO - Institutional data aggregation complete

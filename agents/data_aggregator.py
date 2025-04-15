@@ -99,23 +99,47 @@ class DataAggregator:
             "q": f"{country} economy",
             "from": (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d"),
             "sortBy": "relevancy",
-            "apiKey": self.api_keys["news_api"],
             "pageSize": 100,
             "language": "en"
         }
         
+        # Extract API key as plain string
+        api_key = str(self.api_keys.get("news_api", ""))
+        
+        headers = {"X-Api-Key": api_key}  # Use string directly
+        
         try:
-            response = requests.get(url, params=params, timeout=15)
-            response.raise_for_status()
-            articles = response.json().get("articles", [])
+            # Validate API key
+            if not api_key:
+                raise ValueError("News API key not found in config")
             
-            # Hedge fund-style news processing
-            return pd.DataFrame([{
-                "date": pd.to_datetime(art["publishedAt"]).normalize(),
-                "title": art["title"],
-                "sentiment": self._analyze_sentiment(art["content"]),
-                "source": art["source"]["name"]
-            } for art in articles]).drop_duplicates()
+            logger.info(f"Using News API key: {api_key[:5]}...")
+                
+            response = requests.get(url, params=params, headers=headers, timeout=15)
+            response.raise_for_status()
+            
+            # Handle potential API errors
+            response_data = response.json()
+            if response_data.get("status") != "ok":
+                raise ValueError(f"News API error: {response_data.get('message', 'Unknown error')}")
+                    
+            articles = response_data.get("articles", [])
+            
+            # Safe dataframe construction
+            news_data = []
+            for art in articles:
+                try:
+                    news_data.append({
+                        "date": pd.to_datetime(art.get("publishedAt")).normalize(),
+                        "title": art.get("title", ""),
+                        "sentiment": self._analyze_sentiment(art.get("content")),
+                        "source": art.get("source", {}).get("name", "unknown")
+                    })
+                except Exception as art_error:
+                    logger.warning(f"Error processing article: {str(art_error)}")
+                    continue
+                    
+            return pd.DataFrame(news_data).drop_duplicates().reset_index(drop=True)
             
         except Exception as e:
             logger.error(f"News API error: {str(e)}")
@@ -125,8 +149,11 @@ class DataAggregator:
     
     def _analyze_sentiment(self, text):
         """Basic institutional sentiment scoring"""
-        positive = len([w for w in ["rise", "growth", "strong", "bullish"] if w in text.lower()])
-        negative = len([w for w in ["fall", "decline", "weak", "bearish"] if w in text.lower()])
+        if not text:
+            return 0
+            
+        positive = len([w for w in ["rise", "growth", "strong", "bullish"] if w in str(text).lower()])
+        negative = len([w for w in ["fall", "decline", "weak", "bearish"] if w in str(text).lower()])
         return (positive - negative) / max(positive + negative, 1)
 
     def _save_data(self, df, filename):
@@ -161,7 +188,7 @@ class DataAggregator:
             # Market Data
             self._save_data(
                 self.fetch_yahoo_finance(country["stock_index"]),
-                f"{country['name']}_equity.csv"
+                f"{country['name']}_stock.csv"
             )
             
             # Alternative Data

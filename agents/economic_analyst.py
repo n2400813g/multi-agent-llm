@@ -31,10 +31,10 @@ class EconomicAnalyst:
         for country in countries:
             name = country['name']
             data[name] = {
-                'gdp': pd.read_csv(f"data/processed/{name}_gdp.csv", index_col='date', parse_dates=True),
-                'cpi': pd.read_csv(f"data/processed/{name}_cpi.csv", index_col='date', parse_dates=True),
-                'stocks': pd.read_csv(f"data/processed/{name}_stock.csv", index_col='date', parse_dates=True),
-                'news': pd.read_csv(f"data/processed/{name}_news.csv", parse_dates=['date'])
+                'gdp': pd.read_csv(f"data/raw/{name}/{name}_gdp.csv", index_col='date', parse_dates=True),
+                'cpi': pd.read_csv(f"data/raw/{name}/{name}_cpi.csv", index_col='date', parse_dates=True),
+                'stocks': pd.read_csv(f"data/raw/{name}/{name}_stock.csv", index_col='date', parse_dates=True),
+                'news': pd.read_csv(f"data/raw/{name}/{name}_news.csv", parse_dates=['date'])
             }
         return data
 

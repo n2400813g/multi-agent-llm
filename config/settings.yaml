@@ -16,12 +16,12 @@ data:
   update_frequency: "daily"
 
 indicators:
-  - "GDP"
-  - "CPI"
-  - "UnemploymentRate"
-  - "Exports"
-  - "Imports"
-  - "TradeBalance"
+  - "GDP (quarterly)"
+  - "CPI (quarterly)"
+  - "UnemploymentRate (quarterly)"
+  - "Exports (quarterly)"
+  - "Imports (quarterly)"
+  - "TradeBalance (quarterly)"
 
 countries:
   - name: "brazil"
