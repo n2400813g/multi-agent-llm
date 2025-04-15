@@ -1,0 +1,35 @@
+# settings.yaml
+project:
+  name: "Global Macro Trading LLM"
+  version: "1.0.0"
+
+data:
+  sources:
+    - "alpha_vantage"
+    - "emis"
+    - "fred"
+    - "news_api"
+  countries:
+    - "brazil"
+    - "india"
+    - "south_africa"
+  update_frequency: "daily"
+
+indicators:
+  - "GDP"
+  - "CPI"
+  - "UnemploymentRate"
+  - "Exports"
+  - "Imports"
+  - "TradeBalance"
+
+countries:
+  - name: "brazil"
+    wb_code: "BR"
+    stock_index: "^BVSP"
+  - name: "india"
+    wb_code: "IN"
+    stock_index: "^NSEI"
+  - name: "south_africa"
+    wb_code: "ZA"
+    stock_index: "^JN0U.JO"
